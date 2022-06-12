@@ -12,7 +12,7 @@ func main() {
 	arr[2] = 3
 	fmt.Println(arr)
 	fmt.Println(arr[1])
-	fmt.Println(arr[4]) //Compiler will check for bounds to make sure we do not try to get an index outside of the bounds.
+	//fmt.Println(arr[4]) //Compiler will check for bounds to make sure we do not try to get an index outside of the bounds. This will result in error.
 
 	//short form
 	arr2 := [3]int{1, 2, 3}
